@@ -1,0 +1,14 @@
+public class JavaBasics{
+   public static void main (String []args){
+      Scanner sc = new Scanner(System.in);
+        System.out.print("enter the number which you want the sum of natural number : ");
+        int n =sc.nextInt(); 
+        int sum=0;
+        int i=1;                //counter 
+        while(i<=n){
+            sum+=i;
+            i++;
+        }
+        System.out.println("Sum is : " + sum);
+   }
+}
