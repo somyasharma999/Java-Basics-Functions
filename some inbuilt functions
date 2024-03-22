@@ -1,0 +1,31 @@
+public class JavaBasics {
+              //    Inbuilt function for minimum number
+   public static void main(String[] args) {
+        int a =-13;
+        int b =-23;
+        System.out.println(Math.min(a, b));
+   }
+
+   
+      //       INBUILT FUNCTION FOR MAXIMUM NUMBER
+   public static void main (String [] args){
+        int a =34;
+        int b =45; 
+        System.out.println(Math.max(a, b));
+   }
+
+   
+  //            INBUILT FUNCTION FOR FINDING SQUARE ROOT
+    public static void main (String [] args){
+        double a =121;
+        System.out.println(Math.sqrt(a));
+    }
+
+    
+   //              INBUILT FUNCTION FOR FINDING POWER 
+    public static void main(String[] args) {
+        double a =30;
+        double b =2;
+        System.out.println(Math.pow(a, b));
+    }
+}
