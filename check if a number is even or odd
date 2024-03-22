@@ -1,0 +1,19 @@
+public class JavaBaiscs{
+  public static boolean isEven (int n){
+        if(n%2==0){
+            return true;
+        }
+        return false;
+    }
+    public static void main (String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter an integer : ");
+        int num = sc.nextInt();
+        if(isEven(num)){
+            System.out.println("the number entered is even");
+        }
+        else {
+            System.out.println("the number entered is odd");
+        }
+    } 
+}
